@@ -1,0 +1,4 @@
+# Ignorar base de datos
+*.db
+__pycache__/
+.env
