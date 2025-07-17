@@ -50,3 +50,4 @@ def eliminar_estudiante(id):
     cursor.execute("DELETE FROM estudiantes WHERE id=?", (id,))
     conn.commit()
     conn.close()
+
